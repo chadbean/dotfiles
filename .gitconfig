@@ -1,0 +1,15 @@
+[user]
+	name = Chad Bean
+	email = mail@chadbean.com
+[core]
+[core]
+	editor = /usr/bin/vim -f
+	editor = /usr/bin/vim
+	excludesfile = /Users/chad/.gitignore_global
+	email = mail@chadbean.com
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
